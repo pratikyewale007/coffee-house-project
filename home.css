@@ -11,7 +11,8 @@
 }
 /*----Navigation bar-------*/
 nav{
-   position: fixed; 
+   position: fixed;
+   z-index: 1; 
    background-color: white;
    height: 70px;
    width: 100%;
@@ -36,7 +37,7 @@ nav ul li a{
     padding: 10px;
     border-radius: 3px;
 }
-nav a.active, a:hover{
+nav a.active, nav a:hover{
     background-color: antiquewhite;
 }
 
@@ -144,7 +145,7 @@ nav a.active, a:hover{
     align-items: center;
     flex-direction: column;
     color: white;
-    z-index: -1;
+    z-index: auto;
 }
 .cafe-name h1{
     font-weight: bolder;
@@ -158,11 +159,9 @@ nav a.active, a:hover{
     padding: 10px;
     border: 2px solid wheat;
     border-radius: 10px;
+    cursor: pointer;
 }
-.cafe-name button:hover{
-    background-color: brown;
-    color: white;
-}
+
   /*------Cafe name and info-----*/
 /*-----ABOUT SECTION--------*/
 .about-section{

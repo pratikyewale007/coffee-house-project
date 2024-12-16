@@ -37,7 +37,7 @@ nav{
      padding: 10px;
      border-radius: 3px;
  }
- nav a.active, a:hover{
+ nav a.active, nav a:hover{
      background-color: antiquewhite;
  }
  
@@ -127,4 +127,15 @@ nav{
 
 .text-rest{
     text-decoration: none;
+}
+/* social media */
+#footer-link{
+    text-decoration: none;
+}
+#click-btn{
+    border-color: bisque ;
+    border-radius: 5px;
+    background-color: white;
+    color: brown;
+    padding: 3px;
 }
